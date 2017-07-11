@@ -12,6 +12,8 @@
 		881EB3711F14B77300DC346A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881EB36F1F14B77300DC346A /* Main.storyboard */; };
 		881EB3731F14B77300DC346A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881EB3721F14B77300DC346A /* Assets.xcassets */; };
 		881EB3761F14B77300DC346A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881EB3741F14B77300DC346A /* LaunchScreen.storyboard */; };
+		881EB37F1F14D2F100DC346A /* objcio.cer in Resources */ = {isa = PBXBuildFile; fileRef = 881EB37D1F14D2F100DC346A /* objcio.cer */; };
+		881EB3801F14D2F100DC346A /* google.cer in Resources */ = {isa = PBXBuildFile; fileRef = 881EB37E1F14D2F100DC346A /* google.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		881EB3721F14B77300DC346A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		881EB3751F14B77300DC346A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		881EB3771F14B77300DC346A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881EB37D1F14D2F100DC346A /* objcio.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = objcio.cer; path = ../../../../objcio.cer; sourceTree = "<group>"; };
+		881EB37E1F14D2F100DC346A /* google.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = google.cer; path = ../../../../google.cer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				881EB3721F14B77300DC346A /* Assets.xcassets */,
 				881EB3741F14B77300DC346A /* LaunchScreen.storyboard */,
 				881EB3771F14B77300DC346A /* Info.plist */,
+				881EB37E1F14D2F100DC346A /* google.cer */,
+				881EB37D1F14D2F100DC346A /* objcio.cer */,
 			);
 			path = CertificatePinning;
 			sourceTree = "<group>";
@@ -122,8 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881EB37F1F14D2F100DC346A /* objcio.cer in Resources */,
 				881EB3761F14B77300DC346A /* LaunchScreen.storyboard in Resources */,
 				881EB3731F14B77300DC346A /* Assets.xcassets in Resources */,
+				881EB3801F14D2F100DC346A /* google.cer in Resources */,
 				881EB3711F14B77300DC346A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
